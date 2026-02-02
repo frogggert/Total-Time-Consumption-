@@ -1,0 +1,123 @@
+body {
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    max-width: 720px;
+    margin: 40px auto;
+    padding: 0 16px;
+    background: #ccaf9a;
+    color: #efc4a2;
+}
+
+h1 {
+    margin-bottom: 6px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header h1 {
+    color: #3F3E37;
+}
+
+.header .subtitle {
+    color: #3F3E37;
+}
+
+.subtitle {
+    margin-top: 0;
+    opacity: 0.8;
+}
+
+.card {
+    background: #68605b;
+    border-radius: 12px;
+    padding: 16px;
+    margin-top: 16px;
+}
+
+label {
+    display: block;
+    margin-bottom: 14px;
+}
+
+input[type="text"] {
+    width: 100%;
+    margin-top: 6px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #cf9772;
+    background: #ffc392;
+    color: #413a2b;
+}
+
+input[type="range"] {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.hint {
+    margin-top: 5px;
+    opacity: 1.5;
+}
+
+.results {
+    line-height: 1.7;
+}
+
+strong {
+    color: #FFC392;
+}
+
+
+/* Slider colors stuff */
+
+input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 6px;
+    border-radius: 6px;
+    background: linear-gradient(
+        to right,
+        #3f3e37,
+        #3f3e37 var(--value, 50%),
+        #FFC392 var(--value, 50%),
+        #FFC392 100%
+    );
+    outline: none;
+}
+
+/* circle thing */
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #ffb477;
+    border: 2px solid #67593b78;
+    cursor: pointer;
+}
+
+/* circle thing but for firefox */
+
+input[type="range"]::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #ffb477;
+    border: 2px solid #67593b00;
+    cursor: pointer;
+}
+
+/* think behind */
+
+input[type="range"]::-moz-range-track {
+    height: 6px;
+    border-radius: 6px;
+    background:#67593b00;
+}
+
+
+
+

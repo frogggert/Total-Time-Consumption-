@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Total Time Consumption</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+        <h1>Total Time Consumption</h1>
+        <p class="subtitle">See how small habits add up</p>
+    </div>
+
+  <div class="card">
+    <label>
+      Activity (optional)
+      <input id="activity" type="text" placeholder="Doom scrolling, gaming, other activites..." />
+    </label>
+
+    <label>
+      Minutes per day
+      <input id="minutes" type="range" min="5" max="500" step="5" value="30">
+      <div class="hint"><span id="minutesValue">30</span> min/day</div>
+    </label>
+
+    <label>
+      Days per week
+      <input id="days" type="range" min="1" max="7" step="1" value="7">
+      <div class="hint"><span id="daysValue">7</span> days/week</div>
+    </label>
+
+    <label>
+      Project over (years)
+      <input id="years" type="range" min="1" max="100" step="1" value="1">
+      <div class="hint"><span id="yearsValue">1</span> year(s)</div>
+    </label>
+  </div>
+
+  <div id="results" class="card results"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
