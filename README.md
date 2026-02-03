@@ -19,7 +19,7 @@ of course is run on browser.
 1. Download the repo
 2. open the index.html in a browser (modern browser)
 
-Or of course over the link: 
+Or of course over the link: https://frogggert.github.io/Total-Time-Consumption-/
 
 ## Hackclub reviewers
 I hope you like my project ;DDD
